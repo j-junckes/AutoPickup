@@ -9,7 +9,7 @@ It allows Mob drops to go directly into the inventory, instead of being dropped 
 | `/autopickup [global\|player]` | Toggle AutoPickup (global or per-player) | `autopickup.toggle` |
 
 ### Permissions
-| Name              | Description                 | Default |
-|-------------------|-----------------------------|---------|
+| Name                | Description                 | Default |
+|---------------------|-----------------------------|---------|
 | `autopickup.toggle` | Allows toggling auto pickup | `op`    |
 | `autopickup.use`    | Allows using auto pickup    | `true`  |
