@@ -1,0 +1,19 @@
+name: AutoPickup
+version: '1.0-SNAPSHOT'
+main: dev.junckes.autopickup.AutoPickupPlugin
+api-version: '1.19'
+commands:
+  autopickup:
+    description: Toggle AutoPickup (global or per-player)
+    usage: /autopickup [global|player]
+    permission: autopickup.toggle
+permissions:
+  autopickup.toggle:
+    description: Allows toggling auto pickup
+    default: op
+  autopickup.use:
+    description: Allows using auto pickup
+    default: true
+authors: [ j-junckes ]
+description: Allows mob drops to go directly into a player's inventory
+website: https://github.com/j-junckes/autopickup
